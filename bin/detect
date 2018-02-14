@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+echo "StudyKIK API buildpack"
+exit 0
