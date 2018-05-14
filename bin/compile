@@ -10,7 +10,7 @@ source $bp_dir/lib/common.sh
 export_env_dir $env_dir
 cd $build_dir
 
-apt-get install libfontconfig
+sudo apt-get install libfontconfig
 
 head "Run the update-db command"
 npm run update-db
